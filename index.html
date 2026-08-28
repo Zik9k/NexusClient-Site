@@ -3,13 +3,13 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Nexus Client</title>
 
   <meta
     name="description"
-    content="Nexus Client — современный клиент для Minecraft 1.21.4 на Fabric."
+    content="Nexus Client — современный Minecraft-клиент для Fabric 1.21.4."
   >
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,368 +25,281 @@
 
 <body>
 
-  <header class="nav wrap">
+<header class="nav wrap">
+  <a class="brand" href="#top">
+    <span class="logo">N</span>
+    <span>NEXUS <b>CLIENT</b></span>
+  </a>
 
-    <a class="brand" href="#top">
-      <span class="logo">N</span>
-      <span>NEXUS <b>CLIENT</b></span>
-    </a>
-
-    <nav>
-      <a href="#features">Функции</a>
-      <a href="#about">О клиенте</a>
-      <a href="#download">Скачать</a>
-    </nav>
-
-  </header>
+  <nav>
+    <a href="#features">Функции</a>
+    <a href="#about">О клиенте</a>
+    <a href="#download">Скачать</a>
+  </nav>
+</header>
 
 
-  <main id="top">
+<main id="top">
 
-    <!-- HERO -->
+  <section class="hero wrap">
 
-    <section class="hero wrap">
+    <div class="hero-copy">
 
-      <div class="hero-copy">
-
-        <div class="badge">
-          <span></span>
-          Fabric • Minecraft 1.21.4
-        </div>
-
-        <h1>Nexus Client</h1>
-
-        <p>
-          Современный Minecraft-клиент с модульной архитектурой,
-          собственным ClickGUI и большим набором функций.
-        </p>
-
-        <div class="actions">
-
-          <a
-            class="btn primary"
-            href="#download"
-          >
-            Скачать
-          </a>
-
-          <a
-            class="btn ghost"
-            href="#features"
-          >
-            Функции
-          </a>
-
-        </div>
-
-        <div class="meta">
-
-          <b>Java 21</b>
-          <b>Gradle</b>
-          <b>Fabric</b>
-          <b>v10.0.0</b>
-
-        </div>
-
+      <div class="badge">
+        <span></span>
+        Fabric • Minecraft 1.21.4
       </div>
 
+      <h1>Nexus Client</h1>
 
-      <!-- GUI PREVIEW -->
-
-      <div class="gui">
-
-        <div class="gui-top">
-
-          <span class="brand-mini">
-            NEXUS
-          </span>
-
-          <span>
-            ClickGUI
-          </span>
-
-          <span class="ver">
-            1.21.4
-          </span>
-
-        </div>
-
-
-        <div class="gui-body">
-
-          <aside>
-
-            <div class="cat active">
-              Combat
-            </div>
-
-            <div class="cat">
-              Movement
-            </div>
-
-            <div class="cat">
-              Render
-            </div>
-
-            <div class="cat">
-              Player
-            </div>
-
-            <div class="cat">
-              Utils
-            </div>
-
-          </aside>
-
-
-          <section>
-
-            <div class="panel-title">
-              Combat
-            </div>
-
-
-            <div class="cards">
-
-              <div class="card">
-                <span>KillAura</span>
-                <i></i>
-              </div>
-
-              <div class="card">
-                <span>TriggerBot</span>
-                <i></i>
-              </div>
-
-              <div class="card on">
-                <span>TargetESP</span>
-                <i></i>
-              </div>
-
-              <div class="card">
-                <span>AutoTotem</span>
-                <i></i>
-              </div>
-
-              <div class="card">
-                <span>CustomHitbox</span>
-                <i></i>
-              </div>
-
-              <div class="card">
-                <span>FakePlayer</span>
-                <i></i>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- FEATURES -->
-
-    <section
-      id="features"
-      class="section wrap"
-    >
-
-      <div class="eyebrow">
-        01 / ФУНКЦИИ
-      </div>
-
-      <h2>
-        Возможности Nexus Client
-      </h2>
-
-      <p class="section-lead">
-        Клиент использует модульную систему,
-        позволяющую удобно управлять различными функциями.
+      <p>
+        Современный Minecraft-клиент с модульной архитектурой,
+        собственным ClickGUI и большим набором функций.
       </p>
 
+      <div class="actions">
 
-      <div class="grid">
+        <a class="btn primary" href="#download">
+          Скачать
+        </a>
 
-        <article>
-
-          <b>Combat</b>
-
-          <span>
-            KillAura, TriggerBot, AutoTotem,
-            CustomHitbox, TargetESP
-          </span>
-
-        </article>
-
-
-        <article>
-
-          <b>Movement</b>
-
-          <span>
-            Fly, Speed, AutoSprint, NoFall
-          </span>
-
-        </article>
-
-
-        <article>
-
-          <b>Render</b>
-
-          <span>
-            ESP, PlayerESP, FullBright,
-            StorageESP, NameTags
-          </span>
-
-        </article>
-
-
-        <article>
-
-          <b>Player</b>
-
-          <span>
-            AutoMine, AutoCraft, FastPlace,
-            Effects, Cooldown
-          </span>
-
-        </article>
-
-
-        <article>
-
-          <b>HUD</b>
-
-          <span>
-            ArmorHUD, ArrayList, InfoHUD,
-            TargetHUD, Watermark
-          </span>
-
-        </article>
-
-
-        <article>
-
-          <b>Visuals</b>
-
-          <span>
-            ViewModel, SwitchAnimation,
-            ChineseHat, AngelWings
-          </span>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- ABOUT -->
-
-    <section
-      id="about"
-      class="section alt"
-    >
-
-      <div class="wrap split">
-
-        <div>
-
-          <div class="eyebrow">
-            02 / О КЛИЕНТЕ
-          </div>
-
-          <h2>
-            Nexus Client для Minecraft 1.21.4
-          </h2>
-
-        </div>
-
-
-        <p>
-
-          Nexus Client создан для Minecraft 1.21.4
-          на платформе Fabric.
-
-          Клиент использует собственный ClickGUI,
-          модульную систему и дополнительные визуальные
-          возможности.
-
-        </p>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- DOWNLOAD -->
-
-    <section
-      id="download"
-      class="section wrap download"
-    >
-
-      <div class="download-box">
-
-        <div>
-
-          <div class="eyebrow">
-            03 / СКАЧИВАНИЕ
-          </div>
-
-          <h2>
-            Nexus Client 10.0.0
-          </h2>
-
-          <p>
-            Скачайте последнюю версию Nexus Client
-            для Minecraft 1.21.4.
-          </p>
-
-        </div>
-
-
-        <!-- DIRECT DOWNLOAD -->
-
-        <a
-          class="btn primary"
-          id="downloadBtn"
-          href="https://github.com/Zik9k/NexusClient-Site/releases/download/v10.0.0/NexusClient-10.0.0.jar"
-        >
-          Скачать Nexus Client 10.0.0
+        <a class="btn ghost" href="#features">
+          Функции
         </a>
 
       </div>
 
-    </section>
+      <div class="meta">
+        <b>Java 21</b>
+        <b>Gradle</b>
+        <b>Fabric</b>
+        <b>v10.0.0</b>
+      </div>
 
-  </main>
-
-
-
-  <footer class="footer wrap">
-
-    <span>
-      © 2026 Nexus Client
-    </span>
-
-    <span>
-      Made for Fabric
-    </span>
-
-  </footer>
+    </div>
 
 
-  <script src="script.js"></script>
+    <div class="gui">
+
+      <div class="gui-top">
+        <span class="brand-mini">NEXUS</span>
+        <span>ClickGUI</span>
+        <span class="ver">1.21.4</span>
+      </div>
+
+      <div class="gui-body">
+
+        <aside>
+
+          <div class="cat active">Combat</div>
+          <div class="cat">Movement</div>
+          <div class="cat">Render</div>
+          <div class="cat">Player</div>
+          <div class="cat">Utils</div>
+
+        </aside>
+
+
+        <section>
+
+          <div class="panel-title">
+            Combat
+          </div>
+
+          <div class="cards">
+
+            <div class="card">
+              <span>KillAura</span>
+              <i></i>
+            </div>
+
+            <div class="card">
+              <span>TriggerBot</span>
+              <i></i>
+            </div>
+
+            <div class="card on">
+              <span>TargetESP</span>
+              <i></i>
+            </div>
+
+            <div class="card">
+              <span>AutoTotem</span>
+              <i></i>
+            </div>
+
+            <div class="card">
+              <span>CustomHitbox</span>
+              <i></i>
+            </div>
+
+            <div class="card">
+              <span>FakePlayer</span>
+              <i></i>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="features" class="section wrap">
+
+    <div class="eyebrow">
+      01 / ФУНКЦИИ
+    </div>
+
+    <h2>
+      Возможности Nexus Client
+    </h2>
+
+    <p class="section-lead">
+      Клиент использует модульную систему для удобного управления
+      функциями во время игры.
+    </p>
+
+
+    <div class="grid">
+
+      <article>
+        <b>Combat</b>
+        <span>
+          KillAura, TriggerBot, AutoTotem,
+          CustomHitbox, TargetESP
+        </span>
+      </article>
+
+      <article>
+        <b>Movement</b>
+        <span>
+          Fly, Speed, AutoSprint, NoFall
+        </span>
+      </article>
+
+      <article>
+        <b>Render</b>
+        <span>
+          ESP, PlayerESP, FullBright,
+          StorageESP, NameTags
+        </span>
+      </article>
+
+      <article>
+        <b>Player</b>
+        <span>
+          AutoMine, AutoCraft, FastPlace,
+          Effects, Cooldown
+        </span>
+      </article>
+
+      <article>
+        <b>HUD</b>
+        <span>
+          ArmorHUD, ArrayList, InfoHUD,
+          TargetHUD, Watermark
+        </span>
+      </article>
+
+      <article>
+        <b>Visuals</b>
+        <span>
+          ViewModel, SwitchAnimation,
+          ChineseHat, AngelWings
+        </span>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <section id="about" class="section alt">
+
+    <div class="wrap split">
+
+      <div>
+
+        <div class="eyebrow">
+          02 / О КЛИЕНТЕ
+        </div>
+
+        <h2>
+          Nexus Client для Minecraft 1.21.4
+        </h2>
+
+      </div>
+
+
+      <p>
+        Nexus Client создан для Minecraft 1.21.4
+        на платформе Fabric.
+
+        Клиент использует собственный ClickGUI,
+        модульную систему и дополнительные визуальные
+        возможности.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section id="download" class="section wrap download">
+
+    <div class="download-box">
+
+      <div>
+
+        <div class="eyebrow">
+          03 / СКАЧИВАНИЕ
+        </div>
+
+        <h2>
+          Nexus Client 10.0.0
+        </h2>
+
+        <p>
+          Последняя версия клиента для Minecraft 1.21.4.
+          Нажми кнопку ниже, чтобы скачать JAR-файл.
+        </p>
+
+      </div>
+
+
+      <a
+        class="btn primary download-button"
+        href="https://github.com/Zik9k/NexusClient-Site/releases/download/v10.0.0/NexusClient-10.0.0.jar"
+      >
+        Скачать Nexus Client 10.0.0
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer class="footer wrap">
+
+  <span>
+    © 2026 Nexus Client
+  </span>
+
+  <span>
+    Minecraft 1.21.4 • Fabric
+  </span>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
