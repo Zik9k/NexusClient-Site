@@ -38,3 +38,6 @@ Nexus Client имеет два отдельных меню.
 
 ```text
 Right Shift
+
+```text
+0
