@@ -1,5 +1,5 @@
 # ⚡ Nexus Client
-Скачать мод:будущая ссылка
+Скачать мод:https://zik9k.github.io/NexusClient-Site/
 
 **Modern Fabric Client for Minecraft 1.21.4**
 
