@@ -1,14 +1,31 @@
-# Nexus Client Website
+# ⚡ Nexus Client
 
-Статический сайт для Nexus Client, готовый для GitHub Pages.
+<p align="center">
+  <b>Modern Fabric Client for Minecraft 1.21.4</b>
+</p>
 
-## Файлы
-- `index.html` — главная страница.
-- `style.css` — дизайн.
-- `script.js` — ссылка на будущий JAR-релиз.
+<p align="center">
+  Lightweight • Clean GUI • Modular System
+</p>
 
-## GitHub Pages
-Загрузите эти файлы в корень отдельного репозитория и включите:
-**Settings → Pages → Deploy from a branch → main → / (root)**.
+---
 
-Когда появится релиз `.jar`, откройте `script.js` и укажите URL файла в `RELEASE_JAR_URL`.
+## 🎮 About
+
+**Nexus Client** — клиентский мод для **Minecraft 1.21.4**, созданный на платформе **Fabric**.
+
+Клиент использует модульную систему, собственный интерфейс **Click GUI** и отдельные модули, которые можно включать и выключать прямо во время игры.
+
+Главная идея Nexus Client — простой, удобный и современный клиент без лишнего визуального мусора.
+
+---
+
+## ✨ Features
+
+### 🖥️ Click GUI
+Удобное меню для управления модулями прямо в игре.
+
+Открытие GUI:
+
+```text
+Right Shift
